@@ -1,6 +1,6 @@
 Name:		perl-Test-EOL
 Version:	1.3
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	Check the correct line endings in your project
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -53,6 +53,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Test::EOL.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3-7
+- Mass rebuild 2013-12-27
+
 * Tue Aug  7 2012 Paul Howarth <paul@city-fan.org> - 1.3-6
 - Reinstate EPEL-5 compatibility
 - Drop redundant patch for building with ExtUtils::MakeMaker < 6.30
